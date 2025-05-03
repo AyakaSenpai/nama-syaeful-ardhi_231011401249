@@ -1,0 +1,29 @@
+Summary dari apa yang saya pelajari dari materi sebelum UTS adalah :
+
+1. Library Python
+
+Pandas: Digunakan untuk memuat, membersihkan, dan memanipulasi data dalam bentuk tabel (DataFrame). Contohnya: pd.read_csv() digunakan untuk membaca file CSV.
+NumPy: Mendukung operasi matematika dan statistik, seperti manipulasi array dan perhitungan numerik.
+Matplotlib: Digunakan untuk membuat visualisasi data, seperti grafik garis, batang, atau sebar (scatter plot).
+
+2. Preprocessing Data
+
+Case folding: Mengubah semua huruf menjadi huruf kecil (menggunakan .lower()).
+Pembersihan karakter: Menghapus angka, tanda baca, dan simbol (biasanya dengan re.sub() dari library re).
+Tokenisasi: Memecah teks menjadi potongan-potongan kata atau token.
+Stopword removal: Menghapus kata-kata umum yang tidak bermakna penting (misalnya "the", "is", "dan", "yang").
+
+3. Algoritma Klasifikasi
+
+Naive Bayes: Cocok untuk data teks dan kategori; bekerja berdasarkan prinsip probabilitas.
+Decision Tree: Membangun pohon keputusan dari fitur data; mudah dipahami tapi rawan overfitting jika tidak dibatasi kedalaman pohonnya (max_depth).
+
+4. Evaluasi Model
+
+Confusion matrix: Matriks yang menunjukkan jumlah prediksi benar/salah antara kelas aktual dan kelas prediksi.
+Accuracy: Persentase prediksi benar dari seluruh data.
+Precision, Recall, F1-Score: Metode evaluasi yang lebih detail, terutama untuk data tidak seimbang.
+Cross-validation (misal 5-fold): Menguji model dengan beberapa pembagian data uji untuk menilai konsistensi performa.
+
+
+
