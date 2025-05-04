@@ -1,1 +1,2 @@
-# nama-syaeful-ardhi
+nama-syaeful-ardhi
+Nim - 231011401249
